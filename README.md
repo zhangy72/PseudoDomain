@@ -10,10 +10,11 @@ Send emails to nick.zhangyuan@gmail.com
   `git clone git@github.com:zhangy72/PseudoDomain.git`
 
 2. g++ compiler is required in your Unix/Linux system. To install component bin files of PseudoDomain, run the Makeme file using the following command:  
-  `make`  
+  `make`   
+
 This will generate the executable file hmmframe for frameshift detection.   
 
-3. Make sure all .sh files and hmmframe are executable in your environment. If not you can use the command: 
+3. Make sure all .sh files and hmmframe are executable in your environment. If not, you can use the command: 
 ```
 chmod 755 *.sh
 chmod 755 hmmframe
