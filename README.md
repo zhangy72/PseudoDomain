@@ -7,7 +7,7 @@ Send emails to nick.zhangyuan@gmail.com
 
 1. Clone the repository:  
 
-  `git clone git@github.com:zhangy72/SAT-Assembler.git`
+  `git clone git@github.com:zhangy72/PseudoDomain.git`
 
 2. g++ compiler is required in your Unix/Linux system. To install component bin files of PseudoDomain, run the Makeme file using the following command:  
   `make`  
