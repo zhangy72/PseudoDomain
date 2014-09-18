@@ -22,7 +22,7 @@ chmod 755 hmmframe
 
 # Run PseudoDomain
 
-To run PseudoDomain pipeline, use the following command:
+To run PseudoDomain pipeline, enter the folder of PseudoDomain and use the following command:
 ```
 ./PseudoDomain.sh -m <Pfam HMM file> -f <fasta file> -o <output file> [other options]
 
@@ -35,7 +35,7 @@ The hmm file should be in HMMER3.0's hmm file format. It is recommended you down
  
 # Output
 
-The output file specifies the following fields of the identified processed pseudogene:
+The output file specifies the following fields of the identified processed pseudogene:  
 [input sequence name] [protein domains separated by comma] [beginning position] [ending position] [stop codon number] [frameshift number]
 
 
@@ -47,6 +47,7 @@ PseudoDomain can be referenced as:
 
 # License
 
-Copyright (C) 2014 Yuan Zhang and Yanni Sun.
+Copyright (C) 2014 Yuan Zhang and Yanni Sun.   
+
 You may redistribute this software under the terms of GNU GENERAL PUBLIC LICENSE.
 
