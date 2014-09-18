@@ -12,7 +12,7 @@
 # -o: output file.
 
 usage() {
-  echo "./run_hmmframe.sh -m <Pfam HMM file> -s <fasta file> -o <output file> [options] 
+  echo "./run_hmmframe.sh -m <HMMER3 HMM file> -s <fasta file> -o <output file> [options] 
   Options:
     -h:  show this message
     -e:  use self-trained model" >&2
@@ -62,8 +62,10 @@ if [ "$out" == "" ];then
   exit
 fi
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 if [ $error_model -eq 0 ];then
-  ./hmmframe $hmm $fasta $out 0
+  $DIR/hmmframe $hmm $fasta $out 0
 else
-  ./hmmframe $hmm $fasta $out 1
+  $DIR/hmmframe $hmm $fasta $out 1
 fi 

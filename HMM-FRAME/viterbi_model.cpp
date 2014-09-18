@@ -376,7 +376,7 @@ void Viterbi(HmmModel& hmm, DNASeq& dna, ofstream& out_file) {
   vector< vector<int> > seq_error_pos(2);
   vector< vector<int> > state_error_pos(2);
   TraceBack(flag, E_state_flag, deleted_base, L, M, seq, out_seq, error_num, seq_error_pos, state_error_pos);
-  dna.set_corrected_seq(out_seq);
+  dna.set_corrected_seq(StripOutputSeq(out_seq));
   out_file << ">" << dna.seq_name() << " hmm_name=" 
     << hmm.name() << " score=" << score 
     << " error_num=" << error_num;
