@@ -38,6 +38,13 @@ The hmm file should be in HMMER3.0's hmm file format. It is recommended you down
 The output file specifies the following fields of the identified processed pseudogene:
 [input sequence name] [protein domains separated by comma] [beginning position] [ending position] [stop codon number] [frameshift number]
 
+
+# Reference PseudoDomain
+
+PseudoDomain can be referenced as:   
+
+<a href="http://dl.acm.org/citation.cfm?id=2382959">Yuan Zhang and Yanni Sun, PseudoDomain: identification of processed pseudogenes based on protein domain classification. ACM Conference on Bioinformatics, Computational Biology and Biomedicine (ACM BCB), 2012.</a>
+
 # License
 
 Copyright (C) 2014 Yuan Zhang and Yanni Sun.
