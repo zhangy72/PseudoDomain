@@ -14,10 +14,10 @@ Send emails to nick.zhangyuan@gmail.com
 
 
 3. Make sure all .sh files and hmmframe are executable in your environment. If not, you can use the command: 
-```
-chmod 755 *.sh
-chmod 755 hmmframe
-```
+  ```
+  chmod 755 *.sh
+  chmod 755 hmmframe
+  ```
 
 4. Python is required in your Unix/Linux system and in the path.  
 
